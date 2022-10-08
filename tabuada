@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+ int tabuada,i,mult;
+  printf("Qual tabuada deseja? ");
+  scanf("%i",&tabuada);
+
+  for (i=0;i<=10;i++)
+    {
+      printf("\n%i X %i = %i",tabuada,i,mult);
+      mult=tabuada*(i+1);
+    }
+  
+  return 0;
+}
